@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EducaPro - Plataforma de Cursos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+    <!--Flavicon-->
+    <link rel="icon" href="img/Logo.png" type="image/png">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="EducaPro Logo" height="40" href  ="index.html">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="planes.html">Planes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="instructores.html">Instructores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <div>
+                    <a href="registro.html" class="btn btn-outline-primary me-2">Regístrate</a>
+                    <a href="login.html" class="btn btn-primary">Iniciar sesión</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Bienvenido a EducaPro</h1>
+            <p class="lead">La mejor plataforma para aprender en línea</p>
+            <a href="cursos.html" class="btn btn-light btn-lg">Explorar Cursos</a>
+        </div>
+    </header>
+
+    <!-- News Carousel Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Noticias Gamer 🤖</h2>
+            <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel" style="max-width: 75%; margin: 0 auto;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/Noticia1.jpeg" class="d-block w-100" alt="Noticia 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Konami lanza una importante advertencia. Hay alguien que está intentando engañar a los jugadores con betas falsas de Silent Hill F</h5>
+                            <p>La compañía avisa que estas supuestas pruebas conducen a webs fraudulentas en las que se solicita información personal de los usuarios</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Noticia2.jpeg" class="d-block w-100" alt="Noticia 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bethesda ya no lo oculta más y confirma, por fin, que hay un gran plan con Oblivion. Fecha y hora para un directo que alegrará a muchos fans de The Elder Scrolls</h5>
+                            <p>La compañía tiene previsto retransmitir su anuncio mañana, 22 de abril.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Noticia3.jpeg" class="d-block w-100" alt="Noticia 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>"Notaran la diferencia". Los creadores de Days Gone Remastered han "llevado a un nuevo nivel" el juego en PS5 y PS5 Pro</h5>
+                            <p>Si tienes una copia de Days Gone, podrás acceder a la remasterización por 10 dolares.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 EducaPro. Todos los derechos reservados.</p>
+        <div class="d-flex justify-content-center align-items-center">
+            <a href="https://www.facebook.com/" class="text-white me-3" style="font-size: 1.5rem; text-decoration: none;">
+            <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://x.com/?lang=es" class="text-white me-3" style="font-size: 1.5rem; text-decoration: none;">
+            <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/" class="text-white" style="font-size: 1.5rem; text-decoration: none;">
+            <i class="bi bi-instagram"></i>
+            </a>
+        </div>
+        <p>Dirección: Calle 23 Avenida Sur, Bogota</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

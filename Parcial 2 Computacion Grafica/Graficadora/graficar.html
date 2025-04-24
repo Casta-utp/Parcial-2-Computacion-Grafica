@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style-->
+    <link rel="stylesheet" href="styles/style_graficadora.css">
+    <title>Graficadora de Líneas</title>
+</head>
+<body>
+    <h1>Graficadora de Líneas</h1>
+    <canvas id="lineCanvas" width="800" height="600"></canvas>
+    <br>
+    <label for="x1">X1:</label>
+    <input type="number" id="x1" value="50">
+    <label for="y1">Y1:</label>
+    <input type="number" id="y1" value="50">
+    <label for="x2">X2:</label>
+    <input type="number" id="x2" value="200">
+    <label for="y2">Y2:</label>
+    <input type="number" id="y2" value="200">
+    <button onclick="drawLine()">Dibujar Línea</button>
+    <script src="scripts/graficadora.js"></script>
+</body>
+</html>

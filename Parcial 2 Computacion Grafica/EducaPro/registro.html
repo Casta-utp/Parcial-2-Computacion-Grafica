@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EducaPro - Registrarse</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+    <!--Flavicon-->
+    <link rel="icon" href="img/Logo.png" type="image/png">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="EducaPro Logo" height="40" href  ="index.html">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="planes.html">Planes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="instructores.html">Instructores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <div>
+                    <a href="registro.html" class="btn btn-outline-primary me-2">Regístrate</a>
+                    <a href="login.html" class="btn btn-primary">Iniciar sesión</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Bienvenido a EducaPro</h1>
+            <p class="lead">La mejor plataforma para aprender en línea</p>
+            <a href="cursos.html" class="btn btn-light btn-lg">Explorar Cursos</a>
+        </div>
+    </header>
+
+    <!-- Registration Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Regístrate</h2>
+            <form class="mx-auto" style="max-width: 500px;">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre Completo</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre completo" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="password" placeholder="Crea una contraseña" required>
+                </div>
+                <div class="mb-3">
+                    <label for="confirmPassword" class="form-label">Confirmar Contraseña</label>
+                    <input type="password" class="form-control" id="confirmPassword" placeholder="Confirma tu contraseña" required>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="terms" required>
+                    <label class="form-check-label" for="terms">Acepto los <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">términos y condiciones</a></label>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="termsModalLabel">Términos y Condiciones</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>1. Objeto del sitio:
+                                    Este sitio web tiene como finalidad ofrecer cursos online y presenciales relacionados con el desarrollo de videojuegos, programación, diseño, narrativa y tecnologías afines. También permite la inscripción de estudiantes, visualización de contenidos educativos, contacto y suscripción a novedades.                                
+                                    </p>
+                                <p>2. Aceptación del usuario:
+                                    Al registrarse, comprar un curso o utilizar cualquiera de los servicios disponibles, el usuario declara ser mayor de 18 años o contar con autorización de sus padres/tutores y acepta estos Términos y Condiciones en su totalidad.                                 
+                                    </p>
+                                <p>3. Registro y cuentas de usuario:
+                                    El usuario debe proporcionar información veraz, completa y actualizada.
+                                    
+                                    Es responsable de mantener la confidencialidad de su cuenta y contraseña.
+                                    
+                                    Nos reservamos el derecho de suspender o cancelar cuentas en caso de incumplimiento de estos Términos.</p>
+                                <p>4. Propiedad intelectual:
+                                    Todos los contenidos del sitio web (videos, textos, imágenes, logos, marcas, materiales descargables, etc.) son propiedad de EducaPro o se usan con permiso de terceros, y están protegidos por derechos de autor.
+                                    Está prohibido copiar, reproducir o distribuir cualquier contenido sin autorización previa por escrito.</p>
+                                <P>5. Pagos y reembolsos:
+                                    Los cursos ofrecidos pueden tener un costo que se indicará de manera clara.
+                                    
+                                    Los pagos se realizan mediante las plataformas autorizadas y seguras.
+                                    
+                                    No se realizarán reembolsos, excepto en casos de error técnico comprobado o cancelación del curso por parte de la academia.</P>
+                                <P>6. Modificaciones:
+                                    Nos reservamos el derecho de modificar estos Términos y Condiciones en cualquier momento. Se notificará a los usuarios por medio del sitio web o correo electrónico. El uso continuado del sitio tras una modificación implica su aceptación.</P>
+                                <P>7. Responsabilidades:
+                                    No garantizamos que el acceso al sitio sea ininterrumpido o libre de errores.
+                                    
+                                    No nos hacemos responsables por el uso indebido de los contenidos o por daños derivados del uso del sitio web.
+                                    
+                                    </P>
+                                <P>8. Protección de datos:
+                                    El tratamiento de los datos personales se realiza conforme a nuestra Política de Privacidad, accesible en el sitio web. Nos comprometemos a proteger su información conforme a la ley.</P>
+                                <P>9. Legislación aplicable:
+                                    Estos Términos se rigen por las leyes de Colombia. En caso de disputa, se intentará una solución amistosa antes de acudir a instancias legales.   
+                                    </P>
+                                </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Registrarse</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 EducaPro. Todos los derechos reservados.</p>
+        <div class="d-flex justify-content-center align-items-center">
+            <a href="https://www.facebook.com/" class="text-white me-3" style="font-size: 1.5rem; text-decoration: none;">
+            <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://x.com/?lang=es" class="text-white me-3" style="font-size: 1.5rem; text-decoration: none;">
+            <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/" class="text-white" style="font-size: 1.5rem; text-decoration: none;">
+            <i class="bi bi-instagram"></i>
+            </a>
+        </div>
+        <p>Dirección: Calle 23 Avenida Sur, Bogota</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
